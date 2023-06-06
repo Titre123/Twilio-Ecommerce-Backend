@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>OTP Email</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f7f7f7;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    h1 {
+      color: #333333;
+      margin-top: 0;
+    }
+    
+    p {
+      color: #555555;
+      margin-bottom: 20px;
+    }
+    
+    strong {
+      color: #0088cc;
+    }
+    
+    .footer {
+      text-align: center;
+      margin-top: 30px;
+      color: #777777;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>OTP Email</h1>
+    <p>Your One-Time Password (OTP) is: <strong>{{otp}}</strong></p>
+    <p>Please use this OTP to proceed with your action.</p>
+    <div class="footer">
+      This email was sent using Nodemailer.
+    </div>
+  </div>
+</body>
+</html>
